@@ -1,4 +1,60 @@
 body {
-    background-color: rgb(219, 208, 191);
-    
+    background-color: rgb(248, 245, 240);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    line-height: 1.5rem;
+    margin: 1rem 4rem;
+    background-image: url("/images/gi-backgr.gif");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+}
+nav {
+    background-color: bisque;
+
+
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+}
+ul li a:link a:visited a:hover {
+    color: white;
+}
+
+#hero {
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin: 4rem;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+
+#gallery img {
+    max-width: 30%;
+    margin: 1rem;
+    align-self: center;
+}
+#about-img {
+    max-width: 20%;
+    height: auto;
+}
+.img-container {
+    text-align: center;
 }
